@@ -27,10 +27,23 @@ Myasthenia gravis (MG) is an autoimmune disease characterized by chronic neuromu
 
 # Training
 
+1.Clone the code and prepare the required environment.
+
 ```shell
+git clone https://github.com/dop2001/MGVNet.git
+cd MGVNet
 pip install -r requirements.txt
+```
+
+2.Train and test MGVBet, and provide machine learning comparison models.
+
+```shell
 python train.py
 # machine learning comparison models
 python utils/machine_learning.py
 ```
+
+
+
+
 
