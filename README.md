@@ -10,12 +10,12 @@ Myasthenia gravis (MG) is an autoimmune disease characterized by chronic neuromu
 .
 ├── README.md
 ├── datasets	# Store dataset
-├── logs		# Save training and testing logs
-├── models		# MGVNet
-├── pths		# Save training weights
-├── runs		# Tensorboard
+├── logs	# Save training and testing logs
+├── models	# MGVNet
+├── pths	# Save training weights
+├── runs	# Tensorboard
 ├── train.py	# Training model
-└── utils		# Some tool files
+└── utils	# Some tool files
     ├── dataloader.py
     ├── loger.py
     ├── machine_learning.py
