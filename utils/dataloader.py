@@ -12,8 +12,8 @@ class FeatureDataset(Dataset):
         self.mode = mode
         self.ratio = ratio
         hc, mg = self.readCSV()
-        random.shuffle(hc)
-        random.shuffle(mg)
+        #random.shuffle(hc)
+        #random.shuffle(mg)
         # split dataset to train and validation
         hc_split_line = int(len(hc)*ratio)
         mg_split_line = int(len(mg)*ratio)
